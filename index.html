@@ -107,6 +107,47 @@
             </tr>
         </table>
     </div>
+<p id="cpp code">this is the cpp code</p>
+<pre><code>
+#include <iostrem.h>
+#include <conio.h>
+ class hellow
+ {
+ private:
+    int a;
+    int b;
+    int c;
+ public:
+    void getdata(int x, int y, int z);
+    {
+        cout<<"enter the value of a:";
+        cin>>a;
+        cout<<"enter the value of b:";
+        cin>>b;
+        cout<<"enter the value of c:";
+        cin>>c;
+    };
+    void sum();
+    {
+        int sum = a + b + c;
+        cout<<"the sum of a, b and c is:"<<sum<<endl;
+    };
+    void display();
+    {
+        cout<<"the value of a is:"<<a<<endl;
+        cout<<"the value of b is:"<<b<<endl;
+        cout<<"the value of c is:"<<c<<endl;
+    };
+ }; 
+    void main()
+    {
+        hellow h;  
+        h.getdata();
+        h.sum();
+        h.display();
+        getch();
+    }
+</code></pre>
     <footer>
         <p>this is the footer of the page</p>
     </footer>
