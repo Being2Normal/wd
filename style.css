@@ -1,8 +1,31 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #2e212177;
+    color: #e1e2e1;
+    margin: 0;
+    padding: 20px;
+}
+
 form
 {
     display: flex;
+    border: #ff090977;
+    border-radius: 30px;
     flex-direction: column;
-    align-items: center;
     margin-top: 20px;
-
+    padding: 20px;
+    background-color: #3a2b2b;      
+}
+input:invalid
+{
+    border: 0.9px solid #ff0000;
+}
+input:valid
+{
+    border: 0.9px solid #00ff00;
+}   
+#yes, #no
+{
+    margin-left: 10px;
 }
